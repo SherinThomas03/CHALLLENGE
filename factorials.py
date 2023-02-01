@@ -1,8 +1,13 @@
-
-f=1
-i=1
-n=input("enter the num: ")
-while i<=n:
-  f=i*1
-  i=i+1
-print f
+a=int(input("enter: "))
+b=int(input("enter :"))
+c=int(input("enter: "))
+if a>b:
+  if a>c:
+      print("a is largest")
+  else:
+      print("c")
+else:
+  if b>c:
+    print("b")
+  else:
+    print("c")
